@@ -22,7 +22,7 @@ MAX30205 max30205;
 void setup()
 {
 	Serial.begin(9600);
-	Serial.println("ClosedCube MAX30205 Arduino Demo");
+	Serial.println("MAX30205 Arduino Demo");
 	/*instruction------
 	go the header file and change the SLAVE_ADD value according to how the IC's A0, A1, A2 are connected accoeding to the follwing table
 
